@@ -1,9 +1,4 @@
 # DVMUNet
-
-PyTorch implementation of **DVMUNet** for skin lesion segmentation.
-
-> The complete DVMUNet model implementation will be released upon acceptance of the paper.
-
 The repository currently provides data processing, dataset splits, experiment configuration, and training and evaluation utilities. Model source code and pretrained weights are not included in the current release.
 
 ## Data
