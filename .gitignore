@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local configuration
+.vscode/
+.env
+.env.*
+*.log
+
+# Training and evaluation outputs
+log_train/
+test_results/
+checkpoints/
+runs/
+wandb/
+
+# Datasets and model artifacts
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.nii
+*.nii.gz
+
+# Native/CUDA build artifacts
+kernels/selective_scan/build/
+kernels/selective_scan/*.egg-info/
+*.so
+*.pyd
+*.dll
+*.o
+*.obj
+
+# Operating system files
+.DS_Store
+Thumbs.db
